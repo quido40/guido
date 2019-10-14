@@ -1,0 +1,282 @@
+body{
+	width: 110%;
+	height: auto;
+	max-width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: -10px;	
+}
+.wrapper {
+ 	display: grid;
+ 	margin-top: 10px;
+  	grid-template-rows: 25vh 50vh 25vh 100px;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	grid-gap: 10px;
+}
+
+.one {  
+	background: #ADA2A0;
+  	grid-row-start: 1;
+  	grid-row-end: 2;
+  	grid-column-start: 1;
+  	grid-column-end: 4;
+  	opacity: 0.6;
+  	margin-top: 30px;
+  	width: 98%;
+  	border-radius: 10px;
+}
+.one{
+	display: grid;
+ 	margin-top: 10px;
+  	grid-template-rows: 30vh 25vh 25vh 25vh 25vh;
+  	grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	grid-gap: 1px;
+}
+.logo{
+	font-family: 'Patua One', cursive;
+	color: black;
+	left: 15px;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 50px;
+	margin: 0.5%;
+	line-height: 10%;
+	letter-spacing:2px;
+	text-indent: 1em;
+	font-weight: 10;
+}
+
+.bebidas{
+	font-family: 'Marvel', sans-serif;
+	color: black;
+	left: 15px;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin: 12% 2% ;
+	line-height: 20px;
+	letter-spacing:2px;
+	text-indent: 1em;
+	font-weight: 10;
+	background-color: transparent;
+}
+.menus{
+	font-family: 'Marvel', sans-serif;
+	color: black;
+	left: 15px;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin: 12% 2% ;
+	line-height: 20px;
+	letter-spacing:2px;
+	text-indent: 1em;
+	font-weight: 10;
+	background-color: transparent;
+}
+.helados{
+	font-family: 'Marvel', sans-serif;
+	color: black;
+	left: 15px;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin: 12% 2% ;
+	line-height: 20px;
+	letter-spacing:2px;
+	text-indent: 1em;
+	font-weight: 10;
+	background-color: transparent;
+}
+.antojos{
+	font-family: 'Marvel', sans-serif;
+	color: black;
+	left: 15px;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin: 12% 2% ; 
+	line-height: 20px;
+	letter-spacing:2px;
+	text-indent: 1em;
+	font-weight: 10;
+	background-color: transparent;		
+}
+.two { 
+
+	grid-row-start:2; 
+	grid-row-end:3;
+	grid-column-start:1;
+	grid-column-end: 4;
+}
+.two {
+ 	display: grid;
+ 	margin-top: 10px;
+  	grid-template-rows: 25vh 50vh 25vh;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	grid-gap: 1px;
+}
+.primero	{
+	grid-row-start: 1;
+	grid-row-end: 3;
+ 	grid-column-start: 1;
+  	grid-column-end: 2;
+}
+
+.segundo {
+	grid-row-start: 1;
+	grid-row-end: 3;
+ 	grid-column-start: 2;
+  	grid-column-end: 3;
+}
+.tercero {
+	grid-row-start: 1;
+	grid-row-end: 3;
+ 	grid-column-start: 3;
+  	grid-column-end: 3;
+}
+.wrapper div div img {
+	width: 98%;
+	height: auto;
+	background-size: 100%;
+	border-radius: 20%;
+
+}
+.three {  
+	
+  	grid-row-start: 3;
+	grid-row-end: 4;
+ 	grid-column-start: 1;
+  	grid-column-end: 2;
+}
+input, button{
+	position: relative;
+	width: 400px;
+	height: 100px;
+	padding: 0;
+}
+input{
+	border: none;
+}
+button{
+	width: 100px;
+	border:none;
+}
+
+.wrapper div img{
+	width: 98%;
+	height: 100%;
+	background-size: 100%;
+	border-radius: 20%;
+
+
+}
+.four {  
+	
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+  	grid-column-start: 2;
+  	grid-column-end: 3;
+}
+.five {
+	
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+  	grid-column-start: 3;
+  	grid-column-end: 4;
+}
+.six {
+  
+  	grid-row-start: 1;
+  	grid-row-end:1;
+  	grid-column-start:1; 
+  	grid-column-end:4;
+}
+.six{	
+	display: grid;
+	width: 110%;
+	height: auto;
+	min-height: 100px;
+	left:  -510px;
+	margin: -23.5px -10px;
+	background:#151515;
+	margin-top: -23.5px;	
+	background-size: 100%;
+	max-width:100%; 
+	display: block;
+	opacity: 0.8;
+}
+.six{
+	display: grid;
+  	grid-template-rows: 55vh;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	grid-gap: 1px;
+}
+.six1{
+	background:#151515;
+	grid-row-start: 1;
+  	grid-row-end: 2;
+  	grid-column-start: 1;
+  	grid-column-end: 3;
+}
+.six2{
+	background: #151515;
+	grid-row-start: 1;
+  	grid-row-end: 2;
+  	grid-column-start: 2;
+  	grid-column-end: 3;
+}
+.six3{
+	background: #151515;	
+	grid-row-start: 1;
+  	grid-row-end: 2;
+  	grid-column-start: 3;
+  	grid-column-end: 4;
+ }
+.six1{
+	color: white;
+	font-family: 'Marvel', sans-serif;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin: 5%;
+	line-height: 30%;
+	letter-spacing:0.1px;
+	text-indent: 2em;
+	font-weight: 500;
+
+}
+.six2{
+	color: white;
+	font-family: 'Marvel', sans-serif;
+	column-gap: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin: 5%;
+	line-height: 30%;
+	letter-spacing:0.1px;
+	text-indent: 2em;
+	font-weight: 500;
+
+}
+.six3{
+	color: white;
+	font-family: 'Marvel', sans-serif;
+	column-gap: 20px;
+	text-align: justify;
+	font-size: 30px;
+	margin: 5%;
+	line-height: 80%;
+	letter-spacing:0.1px;
+	text-indent: -2em;
+	font-weight: 500;
+
+}
